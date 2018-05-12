@@ -1,0 +1,18 @@
+{
+  "name": "function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "grpc": "^1.11.3",
+    "js-yaml": "^3.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm rebuild grpc --target=6.1.0 --target_arch=x64 --target_platform=linux --target_libc=glibc"
+  },
+  "author": "Anthony Estebe <contact@anthonyestebe.com> (http://microblog.anthonyestebe.com/)",
+  "license": "ISC"
+}

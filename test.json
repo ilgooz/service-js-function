@@ -1,0 +1,4 @@
+{
+  "code": "module.export = function(inputs) { return 42; }",
+  "input": "{}"
+}

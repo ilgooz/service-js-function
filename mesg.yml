@@ -1,0 +1,17 @@
+name: function
+description: execute a function
+tasks:
+  execute:
+    inputs:
+      code:
+        type: String
+      inputs:
+        type: Object
+    outputs:
+      outputX:
+        data:
+          result:
+            type: Object
+dependencies:
+  function:
+    image: mesg/function
