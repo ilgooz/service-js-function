@@ -18,7 +18,7 @@ const execute = inputs => ({
       module,
       console,
       require
-    }))(inputs.input) || null
+    }))(inputs.inputs) || null
 })
 
 listener.on('data', ({ executionID, taskKey, inputData }) => {

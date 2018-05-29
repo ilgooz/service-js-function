@@ -1,4 +1,4 @@
 {
   "code": "module.export = inputs => inputs * 2",
-  "input": "21"
+  "inputs": "21"
 }
