@@ -8,10 +8,8 @@ tasks:
       inputs:
         type: Object
     outputs:
-      outputX:
-        data:
-          result:
-            type: Object
+      result:
+        data: {}
 dependencies:
   function:
     image: mesg/function

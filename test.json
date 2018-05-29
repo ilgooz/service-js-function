@@ -1,4 +1,4 @@
 {
-  "code": "module.export = function(inputs) { return 42; }",
-  "input": "{}"
+  "code": "module.export = function(inputs) { return inputs * 2 }",
+  "input": "21"
 }
