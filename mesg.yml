@@ -10,6 +10,3 @@ tasks:
     outputs:
       result:
         data: {}
-dependencies:
-  function:
-    image: mesg/function
