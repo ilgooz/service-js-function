@@ -1,14 +1,18 @@
-## Javascript function
+# Slack Service
 
-To call this service you need to give the following parameters for the `execute` command:
+```
+mesg-core service deploy https://github.com/mesg-foundation/service-js-function.git
+```
 
-### code
-a string that contains the exported function with the parameters as arguments: 
+## Tasks
 
-### inputs
-a valid json that contains all the inputs required by the function. These data will be given as parameters of the function
+### Execute
 
-### example
+#### inputs
+| input | type | description |
+| --- | --- | --- |
+| code | String | a string that contains the exported function with the parameters as arguments:  |
+| inputs | String | a valid json that contains all the inputs required by the function. These data will be given as parameters of the function |
 
 ```
 {
@@ -24,5 +28,11 @@ or
   "inputs": "{\"foo\": \"bar\"}"
 }
 ```
+
+#### outputs
+| ouput | description |
+| --- | --- |
+| result | Result of the function |
+
 
 
