@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "mesg-js": "^1.1.2"
+    "mesg-js": "^1.2.1"
   },
   "devDependencies": {},
   "author": "Anthony Estebe <anthony@mesg.tech>",
