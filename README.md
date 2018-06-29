@@ -1,38 +1,35 @@
-# Slack Service
+# js-function
 
-```
+Execute a javascript function
+
+```bash
 mesg-core service deploy https://github.com/mesg-foundation/service-js-function.git
 ```
 
 ## Tasks
 
-### Execute
+### execute
 
-#### inputs
-| input | type | description |
+Task key: **execute**
+
+#### Inputs
+
+| **key** | **type** | **description** |
 | --- | --- | --- |
-| code | String | a string that contains the exported function with the parameters as arguments:  |
-| inputs | String | a valid json that contains all the inputs required by the function. These data will be given as parameters of the function |
+| **code** | `String` | A string that contains the exported function with the parameters as arguments |
+| **inputs** | `Object` | A valid json that contains all the inputs required by the function. These data will be given as parameters of the function |
 
-```
-{
-  "code": "module.export = function(params) { return params }",
-  "inputs": 42
-}
-```
 
-or 
-```
-{
-  "code": "module.export = params => params",
-  "inputs": "{\"foo\": \"bar\"}"
-}
-```
+#### Outputs
 
-#### outputs
-| ouput | description |
-| --- | --- |
-| result | Result of the function |
+##### result
+
+Output key: **result**
+
+Result of the function
+
+| **key** | **type** | **description** |
+| --- | --- | --- |
 
 
 

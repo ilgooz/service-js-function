@@ -1,12 +1,15 @@
-name: function
-description: execute a function
+name: js-function
+description: "Execute a javascript function"
 tasks:
   execute:
     inputs:
       code:
+        description: "A string that contains the exported function with the parameters as arguments"
         type: String
       inputs:
+        description: "A valid json that contains all the inputs required by the function. These data will be given as parameters of the function"
         type: Object
     outputs:
       result:
+        description: "Result of the function"
         data: {}
