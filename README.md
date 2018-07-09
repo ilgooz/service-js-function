@@ -1,6 +1,6 @@
 # js-function
 
-Execute a javascript function
+Execute a Javascript function
 
 ```bash
 mesg-core service deploy https://github.com/mesg-foundation/service-js-function.git
@@ -17,7 +17,7 @@ Task key: **execute**
 | **key** | **type** | **description** |
 | --- | --- | --- |
 | **code** | `String` | A string that contains the exported function with the parameters as arguments |
-| **inputs** | `Object` | A valid json that contains all the inputs required by the function. These data will be given as parameters of the function |
+| **inputs** | `Object` | A valid json that contains all inputs required by the function. This data will be given as parameters of the function |
 
 
 #### Outputs
